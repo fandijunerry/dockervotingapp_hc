@@ -2,7 +2,7 @@ version: '3.2'
 
 services:
   vote:
-    image: dockersamples/examplevotingapp_vote:before
+    image: fandijunerry/votingapp_vote:latest
     depends_on:
       - redis
     volumes:
